@@ -11,11 +11,6 @@ get('/') do
   erb(:index)
 end
 
-post('/clear') do
-  Word.clear
-  redirect('/')
-end
-
 post('/') do
   word = Word.new({:word => params['word']})
   word.save()
@@ -34,4 +29,9 @@ post '/word/:id' do
   word.add_definition(new_define)
   @word = word
   erb(:word_definition)
+end
+
+post('/clear') do
+  Word.clear
+  redirect('/')
 end
