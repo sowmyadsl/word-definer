@@ -2,7 +2,11 @@ require('rspec')
 require('word')
 require('definition')
 
-describe("#word") do
+describe(Word) do
+  before() do
+    Word.clear()
+  end
+  
   it ("returns an inputted word") do
     test_word = Word.new({:word => "Activity"})
     expect(test_word.word).to(eq("Activity"))

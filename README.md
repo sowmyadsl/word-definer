@@ -12,9 +12,10 @@ The Web application allows user to add words  and add definitions for each word.
 
 | Behavior | Input | Output |
 |----------|-------|--------|
-|        |       |        |
-|          |       |        |
-|          |       |        |
+|Program takes a input as a word and returns the word     |   eg: "Activity"   |  "Activity"     |
+| Program returns a error if input was entered as a number |   eg: 123 |   "Please input a String"     |
+| Program takes the input as a definition and returns the definition | eg: "An Activity is a condition in which things are happening or being done."  | eg: "An Activity is a condition in which things are happening or being done."|
+|Program redirects the user to word page and lets the user click on the word to check for the definition | N/A | N/A |
 
 ## Setup/Installation Requirements
 
