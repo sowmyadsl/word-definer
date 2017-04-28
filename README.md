@@ -16,6 +16,7 @@ The Web application allows user to add words  and add definitions for each word.
 | Program returns a error if input was entered as a number |   eg: 123 |   "Please input a String"     |
 | Program takes the input as a definition and returns the definition | eg: "An Activity is a condition in which things are happening or being done."  | eg: "An Activity is a condition in which things are happening or being done."|
 |Program redirects the user to word page and lets the user click on the word to check for the definition | N/A | N/A |
+|Program redirects the user to definition page and lets the user enter multiple definitions for each word | N/A | N/A |
 
 ## Setup/Installation Requirements
 
