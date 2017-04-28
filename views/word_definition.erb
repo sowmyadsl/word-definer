@@ -5,11 +5,11 @@
   <button type="submit">Add definition</button>
 </form>
 <% if @word.definitions != [] %>
-  <h3>List of definitions added to <%= @word.word() %> <h3>
+<h3>List of definitions added to <%= @word.word() %> <h3>
   <ul>
     <% @word.definitions.each do | definition | %>
-      <li><%= definition.define %></li>
+    <li><%= definition.define %></li>
     <% end %>
   </ul>
-<% end %>
-<a href="/">Return to Main Page</a>
+  <% end %>
+  <a href="/">Return to Main Page</a>
