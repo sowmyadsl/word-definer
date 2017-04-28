@@ -22,4 +22,12 @@ describe("#word") do
       expect(Word.all()).to(eq([test_word]))
     end
   end
+
+  describe(".clear") do
+    it("clears out all the words in the array") do
+      test_word = Word.new({:word=> "Activity"}).save()
+      Word.clear()
+      expect(Word.all()).to(eq([]))
+    end
+  end
 end
