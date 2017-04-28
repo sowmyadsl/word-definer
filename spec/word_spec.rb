@@ -43,13 +43,13 @@ describe("#word") do
     end
   end
 
-#   describe(".find") do
-#     it("looks up and returns a word if it exists") do
-#       test_word = Word.new({:word => "Stock"})
-#       test_word.save()
-#       test_word2 = Word.new({:word => 'Option'})
-#       test_word2.save()
-#       expect(Word.find(test_word.id())).to(eq(test_word))
-#     end
-# end
+  describe(".find") do
+    it("finds the word and returns a word if it exists") do
+      test_word = Word.new({:word => "Activity"})
+      test_word.save()
+      test_word2 = Word.new({:word => "Ruby"})
+      test_word2.save()
+      expect(Word.find(test_word.id())).to(eq(test_word))
+    end
+  end
 end
