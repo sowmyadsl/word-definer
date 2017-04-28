@@ -7,4 +7,8 @@ class Word
     @definitions = []
     @id = @@words.length + 1
   end
+
+  define_singleton_method(:all) do
+    @@words
+  end
 end

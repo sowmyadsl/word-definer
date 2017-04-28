@@ -8,4 +8,8 @@ describe("#word") do
     expect(test_word.word).to(eq("activity"))
     expect(test_word.id).to(eq(1))
   end
+
+  it ("is empty at the beginning") do
+    expect(Word.all()).to(eq([]))
+  end
 end
