@@ -24,7 +24,7 @@ The Web application allows user to add words  and add definitions for each word.
 * Run $ bundle
 * Run $ ruby app.rb
 * Browse http://localhost:4567/ in your web browser.
-* Open the Heroku link on a browser : available after 5PM
+* Open the Heroku link on a browser : https://peaceful-harbor-82804.herokuapp.com/
 
 ## Known Bugs
 
